@@ -45,9 +45,9 @@ from PRACTICE.data_inconsistency_6_3 import DataInconsist_6_3
 from PRACTICE.compare_phi_6_4 import compare_phi_6_4
 from PRACTICE.validate_6_4_category import Category_6_4
 
-from PRACTICE.compare_excel_PROGRAM3 import compare_excel_PROGRAM3
+from PRACTICE.compare_excel_program3 import compare_excel_program3
 
-from PRACTICE.PROGRAM3_Report_VS_Tera import PROGRAM3_Report_VS_Tera
+from PRACTICE.program3_report_vs_tera import program3_report_vs_tera
 
 from PRACTICE.PROGRAM1_6_3_Report_Generated import PROGRAM1_6_3_Report_Generated
 
@@ -153,8 +153,8 @@ def do_process(infile1, infile2, model, report_num, PPO_name, error_threshold):
     elif report_num == "2_3" or report_num == "2-3":
         compare_excel_2_3(path1, path2, outfile7)
     elif model == "PROGRAM3":
-        compare_excel_PROGRAM3(path1, path2, outfile)
-        PROGRAM3_Report_VS_Tera(path2, outfile6)
+        compare_excel_program3(path1, path2, outfile)
+        program3_report_vs_tera(path2, outfile6)
 
     elif report_num == "5_1":
         compare_excel_5_1(path1, path2, outfile, r51data=r51data)
