@@ -5,15 +5,6 @@ Created on Sun Oct 11 14:47:12 2020
 @author: heart
 """
 
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Jul 20 15:08:15 2020
-
-@author: AWSCLOUD\l6oi
-"""
-
-
 import pandas
 import re
 
